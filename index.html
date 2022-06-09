@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valuation Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+     <div class="container">
+        <div class="card">
+            <form action="">
+                <div class="block">
+                    <p>Investment:</p>
+                    <input id="amount" type="number" autofocus dir="rtl" oninput="calc();"/>
+                    <span>&#x20b9</span>
+                </div>
+                <div class="block">
+                    <p>Investors Equity:</p>
+                    <input id="equity" type="number" dir="rtl" oninput="calc();"/>
+                    <span>%</span>
+                </div>
+                <div class="block">
+                    <p>Pre money val:</p>
+                    <input type="number" id="pre" dir="rtl">
+                    <span>&#x20b9</span>
+                </div>
+                 <div class="block">
+                    <p>Post money val:</p>
+                    <input type="number" id="post" dir="rtl">
+                    <span>&#x20b9</span>
+                </div> 
+            </form>
+        </div>
+        <div class="card2"></div>
+    </div> 
+
+    <script src="main.js"></script>
+</body>
+</html>
